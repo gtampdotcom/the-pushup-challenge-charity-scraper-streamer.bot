@@ -10,4 +10,4 @@ If you want it to periodically check the total and post it in chat when it chang
 
 Settings > Timed Actions > pushupchallengeTimer, set the interval to 30 seconds or whatever delay you think is best.
 
-This is unofficial and not endorsed by the pushupchallenge in any way. Use at own risk. They may block too many requests or break compatibility at any time.
+This is unofficial and not endorsed or supported by the pushupchallenge. Use at own risk. They may block too many requests or break compatibility at any time.
