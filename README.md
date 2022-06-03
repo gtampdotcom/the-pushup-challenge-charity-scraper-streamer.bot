@@ -1,6 +1,6 @@
 # the-pushup-challenge-parser for Streamer.bot
 
-C# script for https://streamer.bot that downloads the total donation amount from a https://www.thepushupchallenge.com.au charity page, saves it to a text file and outputs it to Twitch chat.
+C# script for https://streamer.bot that scrapes the total donation amount from a https://www.thepushupchallenge.com.au charity page, saves it to a text file and outputs it to Twitch chat.
 
 Copy the big line of text below, run streamer.bot, click on the Actions tab, right click, select import and paste the text into the Import String textbox.
 
@@ -9,5 +9,9 @@ TlM0RR+LCAAAAAAABADtV1lz4kgSft+I/Q+EX6fLLt2SI+bB0M1t1obm0nof6tJhSkgjJAOemP++KQna
 If you want it to periodically check the total and post it in chat when it changes, add a Timed Action in streamer bot:
 
 Settings > Timed Actions > pushupchallengeTimer, set the interval to 30 seconds or whatever delay you think is best.
+
+You can also fetch the total on demand with a command, click Commands tab, right click, add command, set action to pushupchallengeCommand
+
+The default text is "Total raised for The Push-Up Challenge charity: $100", you can change it by editing the C# code under "Sub action > Execute code".
 
 This is unofficial and not endorsed or supported by the pushupchallenge. Use at own risk. They may block too many requests or break compatibility at any time.
