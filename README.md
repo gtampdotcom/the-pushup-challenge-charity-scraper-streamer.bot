@@ -1,6 +1,6 @@
 # the-pushup-challenge-charity-scraper-streamer.bot 2022-06-08
 
-C# script for https://streamer.bot that scrapes the total donation amount from a https://www.thepushupchallenge.com.au charity page, saves it to a text file and outputs it to Twitch chat.
+C# script for https://streamer.bot (v0.1.7) that scrapes the total donation amount from a https://www.thepushupchallenge.com.au charity page, saves it to a text file and outputs it to Twitch chat.
 
 Copy the big line of text below, run streamer.bot, click on the Actions tab, right click, select import and paste the text into the Import String textbox.
 
